@@ -1,5 +1,5 @@
 
-;var jsob = function(){
+;var jsos = function(){
 
 
 function BStream(buffer){
@@ -1020,6 +1020,3 @@ return {
 
 }();
 
-
-// if(module)module.exports = jsob;
-// module.exports = jsob;

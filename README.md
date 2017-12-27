@@ -1,4 +1,4 @@
-# jsob
+# jsos
 Compression and serialization of JSON.
 
 This is an experimental version that has not been optimized and tested. Do not use it.
@@ -17,11 +17,11 @@ var jsondata = {
     b:20
 };
 
-var buffer = jsob.compress(jsondata); 
+var buffer = jsos.compress(jsondata); 
 // Uint8Array
 
 
-var decjson = jsob.decompress(buffer); 
+var decjson = jsos.decompress(buffer); 
 
 /*
 decjson = {
